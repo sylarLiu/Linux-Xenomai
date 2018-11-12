@@ -1,0 +1,6 @@
+1. Execute "install_RT_kernel.sh" to install the real-time kernel, 
+	when the installation completed, the system will reboot.
+2. Execute "install_xenomai_library.sh" to install xenomai user space library, 
+	when the installation completed, the system will reboot.
+3. Execute "install_RTnet.sh" to install RTnet, 
+	when the installation completed, the system will reboot.

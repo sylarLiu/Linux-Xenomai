@@ -1,0 +1,19 @@
+======
+Notes
+======
+We have to modify the source(The build_rt_kernel.sh will modify for us):
+	
+1. xenomai-2.6.5/scripts/prepare-kernel.sh 
+line 121
+modify 'ln -sf' to 'ln -f'
+
+2. linux-3.18.20/Makefile
+line 768
+annotate "KBUILD_CFLAGS += $(call cc-option, -Werror=date-time)"
+
+
+=================================
+How to build the install package
+=================================
+1. execute 'build_rt_kernel.sh'
+2. execute 'build_install_package.sh'
