@@ -58,7 +58,7 @@ cd ${RTNET_SOURCE_DIR}
 sudo make clean
 ./configure --enable-dependency-tracking \
   --enable-eepro100 --enable-r8169 \
-  --enable-e1000 --enable-e1000-new --enable-e1000e \
+  --enable-e1000 --enable-e1000-new --enable-e1000e --enable-igb \
   --enable-tcp --enable-tcp-error-injection \
   --enable-rtcfg-dbg --enable-rtcap \
   --enable-examples
